@@ -1,118 +1,111 @@
 
 btn-spin.webp
-size: 741,741
+size: 1243,373
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BG
   rotate: false
-  xy: 2, 364
+  xy: 193, 191
   size: 182, 182
   orig: 184, 184
   offset: 1, 1
   index: -1
 black-72-disable
   rotate: false
-  xy: 2, 548
+  xy: 0, 182
   size: 191, 191
   orig: 195, 195
   offset: 2, 2
   index: -1
 electric circle/Electric _1
   rotate: false
-  xy: 195, 559
+  xy: 560, 193
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _2
   rotate: false
-  xy: 186, 183
+  xy: 742, 193
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _3
   rotate: false
-  xy: 2, 182
+  xy: 924, 193
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _4
   rotate: false
-  xy: 368, 183
+  xy: 560, 11
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _5
   rotate: false
-  xy: 377, 559
+  xy: 377, 10
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _6
   rotate: false
-  xy: 369, 377
+  xy: 193, 9
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _7
   rotate: false
-  xy: 550, 195
+  xy: 0, 0
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 electric circle/Electric _8
   rotate: false
-  xy: 551, 377
+  xy: 742, 11
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 hover/hover_1
   rotate: false
-  xy: 186, 365
+  xy: 377, 192
   size: 181, 181
   orig: 225, 225
   offset: 22, 24
   index: -1
 light2
   rotate: true
-  xy: 689, 166
+  xy: 1106, 97
   size: 27, 26
   orig: 39, 38
   offset: 6, 6
   index: -1
 smoke/smoke_1
   rotate: false
-  xy: 559, 559
+  xy: 924, 11
   size: 180, 180
   orig: 180, 180
   offset: 0, 0
   index: -1
 spin
   rotate: false
-  xy: 550, 56
+  xy: 1106, 236
   size: 137, 137
   orig: 139, 139
   offset: 1, 1
   index: -1
 spin highlight
   rotate: false
-  xy: 2, 72
+  xy: 1106, 126
   size: 107, 108
-  orig: 111, 112
-  offset: 2, 2
-  index: -1
-spin highlight 2
-  rotate: false
-  xy: 184, 73
-  size: 108, 108
   orig: 111, 112
   offset: 2, 2
   index: -1
