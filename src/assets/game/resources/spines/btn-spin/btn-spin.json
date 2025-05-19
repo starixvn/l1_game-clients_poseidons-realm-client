@@ -1,20 +1,17 @@
 {
-"skeleton": { "hash": "y7x6HHa8tAS2Ct17Ig/9D8kIRPM", "spine": "3.8.99", "images": "./images/", "audio": "F:/WorkFolder/8 slotgame/animation/spin" },
+"skeleton": { "hash": "OQ5K8OFbWp3ySzxmpQhQSFkndYU", "spine": "3.8.99", "images": "./images/", "audio": "F:/WorkFolder/8 slotgame/animation/spin" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "spin", "parent": "root" },
-	{ "name": "disable-black-overlay", "parent": "spin", "rotation": -0.07 },
 	{ "name": "spin-button", "parent": "spin" },
 	{ "name": "bg", "parent": "spin" },
 	{ "name": "hover", "parent": "spin", "scaleX": 1.5, "scaleY": 1.5 },
 	{ "name": "hover2", "parent": "spin", "scaleX": 1.5, "scaleY": 1.5 },
-	{ "name": "bone", "parent": "spin" },
 	{ "name": "effect", "parent": "root" },
 	{ "name": "smoke", "parent": "effect" },
 	{ "name": "electric", "parent": "effect" }
 ],
 "slots": [
-	{ "name": "electric-circle/Electric _1", "bone": "electric", "blend": "additive" },
 	{ "name": "hover", "bone": "hover", "blend": "additive" },
 	{ "name": "hover2", "bone": "hover2", "blend": "additive" },
 	{ "name": "BG", "bone": "bg" },
@@ -22,9 +19,8 @@
 	{ "name": "light3", "bone": "bg", "color": "ff7474ff" },
 	{ "name": "light2", "bone": "bg" },
 	{ "name": "light1", "bone": "bg", "color": "ffb2b2ff" },
-	{ "name": "black-72-disable", "bone": "disable-black-overlay" },
-	{ "name": "spin-highlight2", "bone": "bone", "blend": "additive" },
-	{ "name": "smoke/smoke_1", "bone": "smoke", "blend": "additive" }
+	{ "name": "smoke/smoke_1", "bone": "smoke", "blend": "additive" },
+	{ "name": "electric-circle/Electric _1", "bone": "electric", "blend": "additive" }
 ],
 "skins": [
 	{
@@ -32,9 +28,6 @@
 		"attachments": {
 			"BG": {
 				"BG": { "width": 184, "height": 184 }
-			},
-			"black-72-disable": {
-				"black-72-disable": { "width": 195, "height": 195 }
 			},
 			"electric-circle/Electric _1": {
 				"electric circle/Electric _1": { "width": 180, "height": 180 },
@@ -66,23 +59,11 @@
 			},
 			"spin": {
 				"spin": { "x": 0.5, "y": -0.5, "width": 139, "height": 139 }
-			},
-			"spin-highlight2": {
-				"spin highlight": { "width": 111, "height": 112 }
 			}
 		}
 	}
 ],
 "animations": {
-	"disable": {
-		"slots": {
-			"black-72-disable": {
-				"attachment": [
-					{ "name": "black-72-disable" }
-				]
-			}
-		}
-	},
 	"hover": {
 		"slots": {
 			"hover": {
@@ -173,18 +154,6 @@
 				"attachment": [
 					{ "name": "spin" }
 				]
-			},
-			"spin-highlight2": {
-				"color": [
-					{ "color": "ffffffdc" },
-					{ "time": 1.0667, "color": "ffffff00", "curve": "stepped" },
-					{ "time": 1.7333, "color": "ffffff00" },
-					{ "time": 3.1667, "color": "ffffffff" },
-					{ "time": 3.3333, "color": "ffffffdc" }
-				],
-				"attachment": [
-					{ "name": "spin highlight" }
-				]
 			}
 		},
 		"bones": {
@@ -193,13 +162,6 @@
 					{},
 					{ "time": 2.3333, "x": 1.03, "y": 1.03 },
 					{ "time": 2.5 }
-				]
-			},
-			"bone": {
-				"rotate": [
-					{},
-					{ "time": 1.6667, "angle": 180 },
-					{ "time": 3.3333 }
 				]
 			},
 			"smoke": {
@@ -254,15 +216,6 @@
 				"attachment": [
 					{ "name": "spin" }
 				]
-			},
-			"spin-highlight2": {
-				"color": [
-					{ "color": "ffffff00" },
-					{ "time": 0.8333, "color": "ffffffff" },
-					{ "time": 1.6667, "color": "ffffff00" },
-					{ "time": 2.5, "color": "ffffffff" },
-					{ "time": 3.3333, "color": "ffffff00" }
-				]
 			}
 		},
 		"bones": {
@@ -276,7 +229,7 @@
 					{ "time": 0.8333, "x": -0.54, "y": 1.09 },
 					{ "time": 1 },
 					{ "time": 1.1667, "x": 1.04, "y": 0.35 },
-					{ "time": 1.3333, "x": -1.72 },
+					{ "time": 1.3333, "x": 0.17, "y": -1.57 },
 					{ "time": 1.5, "x": -0.35, "y": -0.34 },
 					{ "time": 1.6667 },
 					{ "time": 1.8333, "x": -0.54, "y": 1.09 },
@@ -288,31 +241,6 @@
 					{ "time": 2.8333, "x": -0.54, "y": 1.09 },
 					{ "time": 3 },
 					{ "time": 3.1667, "x": 0.54 },
-					{ "time": 3.3333 }
-				]
-			},
-			"bone": {
-				"rotate": [
-					{},
-					{ "time": 0.1667, "angle": 180 },
-					{ "time": 0.3333 },
-					{ "time": 0.5, "angle": 180 },
-					{ "time": 0.6667 },
-					{ "time": 0.8333, "angle": 180 },
-					{ "time": 1 },
-					{ "time": 1.1667, "angle": 180 },
-					{ "time": 1.3333 },
-					{ "time": 1.5, "angle": 180 },
-					{ "time": 1.6667 },
-					{ "time": 1.8333, "angle": 180 },
-					{ "time": 2 },
-					{ "time": 2.1667, "angle": 180 },
-					{ "time": 2.3333 },
-					{ "time": 2.5, "angle": 180 },
-					{ "time": 2.6667 },
-					{ "time": 2.8333, "angle": 180 },
-					{ "time": 3 },
-					{ "time": 3.1667, "angle": 180 },
 					{ "time": 3.3333 }
 				]
 			}
@@ -332,22 +260,21 @@
 					{ "time": 0.2333, "name": "electric circle/Electric _8" },
 					{ "time": 0.2667, "name": "electric circle/Electric _7" },
 					{ "time": 0.3, "name": "electric circle/Electric _6" },
-					{ "time": 0.3333, "name": "electric circle/Electric _7" },
-					{ "time": 0.3667, "name": "electric circle/Electric _8" },
-					{ "time": 0.4, "name": "electric circle/Electric _7" },
-					{ "time": 0.4333, "name": "electric circle/Electric _6" },
-					{ "time": 0.4667, "name": "electric circle/Electric _7" },
-					{ "time": 0.5, "name": "electric circle/Electric _8" },
-					{ "time": 0.5333, "name": "electric circle/Electric _7" },
-					{ "time": 0.5667, "name": "electric circle/Electric _8" },
+					{ "time": 0.3333, "name": "electric circle/Electric _5" },
+					{ "time": 0.3667, "name": "electric circle/Electric _4" },
+					{ "time": 0.4, "name": "electric circle/Electric _3" },
+					{ "time": 0.4333, "name": "electric circle/Electric _2" },
+					{ "time": 0.4667, "name": "electric circle/Electric _3" },
+					{ "time": 0.5, "name": "electric circle/Electric _4" },
+					{ "time": 0.5333, "name": "electric circle/Electric _5" },
+					{ "time": 0.5667, "name": "electric circle/Electric _6" },
 					{ "time": 0.6, "name": "electric circle/Electric _7" },
-					{ "time": 0.6333, "name": "electric circle/Electric _6" },
-					{ "time": 0.6667, "name": "electric circle/Electric _5" },
-					{ "time": 0.7, "name": "electric circle/Electric _4" },
-					{ "time": 0.7333, "name": "electric circle/Electric _3" },
+					{ "time": 0.6333, "name": "electric circle/Electric _8" },
+					{ "time": 0.6667, "name": "electric circle/Electric _7" },
+					{ "time": 0.7, "name": "electric circle/Electric _6" },
+					{ "time": 0.7333, "name": "electric circle/Electric _4" },
 					{ "time": 0.7667, "name": "electric circle/Electric _2" },
-					{ "time": 0.8, "name": "electric circle/Electric _1" },
-					{ "time": 0.8333, "name": null }
+					{ "time": 0.8, "name": null }
 				]
 			}
 		},
