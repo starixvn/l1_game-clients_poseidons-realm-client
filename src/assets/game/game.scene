@@ -1765,7 +1765,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 660,
+      "width": 680,
       "height": 0
     },
     "_anchorPoint": {
@@ -2358,7 +2358,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 660,
+      "width": 680,
       "height": 550
     },
     "_anchorPoint": {
